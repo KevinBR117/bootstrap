@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Videojuegos</title>
+    <!--representacion adecuada y zoom tactil en moviles-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--fuentes de texto-->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!--vincular el archivo css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body>
+
+    <!--barra de navegacion --->
+    <nav class="navbar navbar-light " Style="background-color:rgb(255, 251, 0)">
+        <!--boton-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--marca-->
+        <a class="navbar-brand" href="videojuegos.html">
+            <img src="https://image.flaticon.com/icons/png/512/13/13973.png"
+                widt="30" height="30" alt="logo" class="d-inline-block align top"> Videojuegos
+        </a>
+        <!--barra desplegable-->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div class="navbar-nav">
+                <!--elementos del navbar-->
+                <a class=" nav-item nav-link" href="#inicio">Inicio</a>
+                <a class="nav-item nav-link" href="#seccion1">Among us</a>
+                <a class="nav-item nav-link" href="#seccion2">Pubg mobile</a>
+                <a class="nav-item nav-link" href="#seccion3">Brawl stars</a>
+                <a class="nav-item nav-link" href="#seccion4">Registrate</a>
+                <a class="nav-item nav-link" href="#seccion5">Acerca de</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="row">
+        <!--rejilla-->
+
+        <div id="inicio" class="col-12" style="padding-top:70px;padding-bottom:70px;background-color:black">
+            <p>Que pasa máquinas, por aquí les muestro los videojuegos que estoy jugando actualmente en mi
+                celular,
+                son muy divertidos y ademas puedes jugar con tus amigos o con otros jugadores &#128526
+            </p>
+
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <!--se crea el sistema de rejillas o grids-->
+        <!--clase col para definir el tamaño del grid-->
+        <div id="seccion1" class="col-6" style="padding-top:70px;padding-bottom:70px;background-color: indigo">
+
+            <h2>Among us</h2>
+
+            <!--imagen responsiva-->
+            <img class="img-fluid"
+                src="https://images.dexerto.es/uploads/2020/08/26161743/que-es-among-us-el-ultimo-juego-que-se-ha-apoderado-de-twitch.jpg">
+
+            <p>
+                <!--color del texto del parrafo,informacion del parrafo alineado al centro-->
+                Juega en línea o con wifi local con 4-10 jugadores mientras intentas reparar tu nave
+                espacial, pero ten
+                cuidado, ya que uno será un impostor empeñado en matar a todos.
+                <br>
+                <!--salto de linea -->
+                Los tripulantes pueden ganar completando todas las tareas o descubriendo y votando al
+                impostor fuera de
+                la
+                nave.
+                <br>
+                El Impostor puede usar el sabotaje para provocar el caos, lo que facilita las muertes y
+                mejora las
+                coartadas.
+                <br>
+                Enseguida podras ver un trailer del videojuego &#128077.
+            </p>
+        </div>
+        <!--fin rejilla-->
+        <br>
+        <div class="col-6" style="background-color:indigo">
+            <!--rejilla-->
+            <br><br><br><br>
+
+            <iframe class="embed-responsive embed-responsive-4by3" src="https://www.youtube.com/embed/NSJ4cESNQfE">
+            </iframe>
+
+
+            <div id=selector1>
+                <!--selector con identificador-->
+                <a href="https://play.google.com/store/apps/details?id=com.innersloth.spacemafia">consigue
+                    Among us para android &#128241</a>
+            </div>
+        </div>
+
+    </div>
+    <!--fin del clase row-->
+
+    <div class="row">
+        <!--segundo sistema de rejilla-->
+        <div id="seccion2" class="col-6"
+            style="padding-top:70px;padding-bottom:70px;background-color:rgb(218, 221, 28)">
+
+            <h2>Pubg mobile</h2>
+
+
+            <img class="img-fluid" src="https://i.blogs.es/f21e65/pubg-mobile/1024_2000.jpg">
+
+            <p>
+                La versión oficial de playerunknown's battlegrounds exclusivamente para dispositivos
+                móviles.
+                <br>
+                Puedes jugar individualmente o con otros jugadores formando equipo.
+                <br>
+                Pubg mobile ofrece batallas de 100 jugadores y combates a muerte en equipos de 4 vs 4 y
+                modos zombi.
+                <br>
+                El juego cuenta con diferentes mapas.
+                <br>
+                La supervivencia es clave y el último en pie gana.
+                <br>
+                Dale un vistazo al trailer &#128071.
+            </p>
+            <br>
+        </div>
+        <div class="col-6" style="background-color:rgb(218, 221, 28)">
+            <br><br><br><br>
+
+            <iframe class="embed-responsive embed-responsive-4by3" src="https://www.youtube.com/embed/uCd6tbUAy6o">
+                <!--agregar un video-->
+            </iframe>
+
+            <div id=selector1>
+                <!--selector con identificador-->
+                <a href="https://play.google.com/store/apps/details?id=com.tencent.ig">consigue Pubg
+                    mobile para
+                    android
+                    &#128241</a>
+            </div>
+        </div>
+    </div>
+
+    <!--rejilla-->
+    <div class="row">
+        <!--tercer scrollspy-->
+        <div id="seccion3" class="col-6" style="padding-top:70px;padding-bottom:70px;background-color: indigo">
+
+            <h2>Brawl stars </h2>
+
+            <!--alinear imagen al centro-->
+            <img class="img-fluid"
+                src="https://static1.millenium.gg/articles/3/35/13/@/26037-2560-3000-1-article_image_d-1.jpg">
+
+            <p>
+                <!--color del texto del parrafo,informacion del parrafo alineado al centro-->
+                Disputa batallas 3 vs 3 con jugadores de todas partes del mundo.
+                <br>
+                Modo de supervivencia multijugador.
+                <br>
+                Encuentra potentes brawlers(personajes) y descubre sus ataques y superhabilidades.
+                <br>
+                Participa en nuevos eventos y prueba novedosos modos de juego a diario.
+                <br>
+                Juega con amigos o en solitario.
+                <br>
+                Únete a un club o forma uno con tus aliados para compartir estrategias y pelear juntos.
+                <br>
+                Desbloquea aspectos y personaliza a tus brawlers.
+                <br>
+                ¡Mira ese potencial! &#10549
+            </p>
+            <br>
+        </div>
+        <div class="col-6" style="padding-top:70px;padding-bottom:70px;background-color: indigo">
+
+            <br>
+            <iframe class="embed-responsive embed-responsive-4by3" src="https://www.youtube.com/embed/Ls9tU-l-vxU">
+                <!--agregar un video-->
+            </iframe>
+
+            <div id=selector1>
+                <!--selector con identificador-->
+                <a href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars">consigue
+                    Brawl stars
+                    para android &#128241</a>
+            </div>
+        </div>
+    </div>
+
+    <!--rejilla-->
+    <div class="row">
+        <!--cuarto scrollspy-->
+        <div class="col" id="seccion4" style="padding-top:70px;padding-bottom:70px;background-color:rgb(218, 221, 28)">
+
+            <p>
+                Registrate
+            </p>
+            <form align="center" name="formulario" onsubmit="mostrarForm()" style=color:white>
+                <!--crear el formulario-->
+                Name: <input type="text" name="nombre"><br>
+                Fecha de nacimiento: <input type="date" name="fecha"><br>
+                E-mail: <input type="text" name="correo"><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <!--quinto scrollspy-->
+        <div class="col" id="seccion5" style="padding-top:70px;padding-bottom:70px;background-color: rgb(0, 0, 0)">
+            <address>
+                <!--informacion de contacto-->
+                Escrito por Kevin Barboza.<br>
+                Email: kevinbarbozarodriguez117@gmail.com<br>
+                Saltillo, Coahuila, México<br>
+                Telefono: 844-372-53-98<br>
+            </address>
+
+
+        </div>
+    </div>
+    <div>
+        <!--****************************  implementacion de js   ****************************************************************************-->
+        <script>
+            function mostrarForm() {//funcion para mostrar los campos introducidos/formulario
+
+                var nom = document.forms["formulario"]["nombre"].value;//acceder a el formulario y a un elemento 
+                var fech = document.forms["formulario"]["fecha"].value;
+                var email = document.forms["formulario"]["correo"].value;
+                //validar si no hay campos vacios
+                if (nom && fech && email != 0) {
+                    alert("Nombre: " + nom + "\nFecha: " + fech
+                        + "\nCorreo: " + email);
+                }
+                else {
+                    mostrarCampos();
+                }
+
+            }
+            function mostrarCampos() {//funcion para mostrar los campos faltantes
+                var nom = document.forms["formulario"]["nombre"].value;
+                var fech = document.forms["formulario"]["fecha"].value;
+                var email = document.forms["formulario"]["correo"].value;
+
+
+                var campos = "";
+                //verificar cual campo falta por llenar
+                if (nom == 0) {
+                    campos += "\n* introduzca un nombre";
+                }
+                if (fech == 0) {
+                    campos += "\n* introduzca una fecha";
+                }
+                if (email == 0) {
+                    campos += "\n* introduzca un correo";
+                }
+                alert("\nFaltan datos: " + campos);
+            }
+
+        </script>
+        <!--*******************************************fin js**********************************************************-->
+    </div>
+
+    <!--</div>-->
+
+
+
+</body>
+
+</html>

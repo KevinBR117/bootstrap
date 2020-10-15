@@ -1,0 +1,58 @@
+/*selectores*/
+body{
+    background-color:black;/*-color de fondo obscuro*/
+}
+h1{
+    color:rgb(7,160,255);
+    font-size:300%;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+h2{
+    color:rgb(255, 255, 255);
+    font-size: 250%;
+    font-family: 'Architects Daughter', cursive;
+    text-align:center;
+}
+p{
+    color:white;
+    font-size: 110%;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+address{
+    color:white;
+    font-size: 100%;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+
+}
+a{
+    color:white;
+    font-size: larger;
+}
+#selector1{/*selector con identificador*/
+    text-align: center;
+}
+iframe{
+    width: 400px;
+    height: 500px;
+    align-items: center;
+}
+img{
+    max-width: 200px; 
+    max-height:400px;
+    align:center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:  rgb(92, 10, 151);
+    font-family: 'Orbitron', sans-serif;
+    align-content: left;
+    
+}
+.navbar-brand{
+    position: center; width: 50%; left: 0; text-align: center; margin:0 auto; 
+}
+/*body{
+    padding-top: 70px/*espacio entre el contenido y el borde*/
+
